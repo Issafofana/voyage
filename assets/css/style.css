@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+:root{
+    --issa: rgb(27, 238, 253);
+    --fofana: #fff;
+    --mali: rgb(71, 71, 71);
+}
+::placeholder{
+    color: var(--fofana);
+    margin-left: 10px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(14, 13, 13, 0.973);
+}
+/* lien de navigation*/
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    scroll-behavior: smooth;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--mali);
+    padding: 7px 0;
+}
+header nav .btn-reserve{
+    color: var(--issa);
+    border: 1px solid var(--issa);
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+header nav .btn-reserve:hover{
+    color: var(--fofana);
+    background-color: var(--issa);
+}
+header nav .logo a{
+    color: var(--issa);
+    font-size: 20px;
+    font-weight: 600;
+}
+header nav .logo a span{
+    color: var(--fofana);
+}
+header nav  ul li{
+    display: inline;
+}
+header nav  ul li a{
+    color: var(--fofana);
+    font-size: 18px;
+    margin: 0 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+header nav  ul li a:hover{
+    color: var(--issa);
+}
+
+/* section accueil */
+.accueil-section{
+   background: linear-gradient(rgba(0, 0, 0, 0.288),#769aca),url("../image/arrier-plan/background.jpg");
+   background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+.accueil-section h2{
+    color: var(--fofana);
+    -webkit-text-stroke: 2px;
+}
+.accueil-section .texte-accueil{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    color: var(--fofana);
+}
+.texte-accueil h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.texte-accueil h2{
+    font-size: 2.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.texte-accueil a{
+    color: var(--issa);
+    border: 1.7px solid var(--issa);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    position: relative;
+    top: 19.5px;
+}
+.texte-accueil a:hover{
+    background-color: var(--issa);
+    color: var(--fofana);
+}
+.accueil-section form{
+    background-color: var(--mali);
+    width: 70%;
+    border: -50%;
+    margin: 250px auto;
+    padding: 10px;
+    display: flex
+}
+.accueil-section form p{
+    margin: 0 20px;
+}
+.accueil-section form p label{
+    display: flex;
+    color: var(--fofana);
+    margin: 10px;
+}
+.accueil-section form p input[type="text"]{
+    border: 1px solid var(--issa);
+    padding: 5px 10px;
+    outline: none;
+    color: var(--fofana);
+    background: transparent;
+}
+.accueil-section form  input[type="submit"]{
+    background: none;
+    color: var(--issa);
+    width: 199px;
+    height: 27px;
+    font-size: 15px;
+    margin-top: 37px;
+    border: 1px solid var(--issa);
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.5s;
+}
+.accueil-section form  input[type="submit"]:hover{
+    color: var(--fofana);
+    background-color: var(--issa);
+}
+
+/* section a propos*/
+ h2{
+    color: var(--issa);
+}
+h2 span{
+    border-right: 4px solid var(--fofana);
+    height: -2px;
+    margin: 0 5px;
+}
+.section-apropos{
+    padding: 75px 198px;
+}
+.apropos{
+    display:  flex;
+}
+.apropos .video video{
+    width: 410px;
+    height: 260px;
+    box-shadow: -7px 5px 0px var(--issa);
+    z-index: -1;
+    margin: 25px 0;
+    border-radius: 7px;
+}
+.text-apropos{
+    margin: 50px 30px;
+}
+.text-apropos h3{
+    color: var(--fofana);
+    font-size: 1.6em;
+    font-weight: 700;
+    width: 580px;
+}
+.text-apropos{
+    margin: 0;
+    padding: 75px 20px;
+}
+.text-apropos p{
+    line-height: 20px;
+    color: rgb(117, 116, 116);
+}
+.text-apropos a{
+    color: var(--issa);
+    border: 1px solid var(--issa);
+    padding: 5px 22px;
+    text-align: center;
+    position: relative;
+    top: 13px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.text-apropos a:hover{
+    background-color: var(--issa);
+    color: var(--fofana);
+}
+/* section destination*/
+.section-desti{
+    padding: 0 190px;
+}
+.section-desti h2{
+    margin-top: -57px;
+}
+.section-desti .contenair-destinations{
+    display: flex;
+}
+.section-desti .contenair-destinations .photos{
+    margin-top: 35px;
+    display: flex;
+}
+
+.section-desti .contenair-destinations .destination img{
+    width: 300px;
+    height: 220px;
+}
+.destination{
+    margin: -12px 7px;
+}
+ .description{
+    width: 300px;
+    height: 220px;
+   text-align: center;
+   padding: 65px 0;
+   margin: -12px 7px;
+   background-color: var(--fofana);
+   position: absolute;
+   transition: 0.5s;
+}
+.section-desti .contenair-destinations .photos .destination:hover{
+    box-shadow: 0 0 10px var(--issa);
+    transition: 0.5s;
+}
+.description a{
+    border: 1px solid rgb(2, 164, 175);
+    padding: 5px 25px;
+    color: rgb(2, 164, 175);
+    position: relative;
+    top: 12px;
+}
+.description a:hover{
+    background-color: rgb(2, 164, 175);;
+    color: var(--fofana);
+}
+.description h3{
+    font-size: 1.5em;
+}
+
+/* section contact*/
+
+.section-contact{
+    padding: 25px 190px;
+}
+.section-contact form{
+    background-color: var(--fofana);
+    margin: 40px 0; 
+    width: 103%;
+}
+.section-contact form .contenair-form{
+    display: flex;
+}
+.section-contact form p{
+    margin: 15px 20px;
+   
+}
+.section-contact form p label{
+    margin: 5px 0;
+    display: block;
+}
+.section-contact form input{
+    width: 425px;
+    padding: 6px;
+    background: transparent;
+    color: var(--mali);
+    outline: none;
+    border: 1px solid var(--mali);
+    transition: all 0.5s;
+}
+.section-contact form .form textarea{
+    width: 425px;
+    height: 130px;
+    transition: all 0.5s;
+}
+.section-contact form  input[type="submit"]{
+    color: var(--fofana);
+    outline: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    width: 120px;
+    position: relative;
+    top: -20px;
+    background-color: var(--mali);
+    transition: all 0.5s;
+}
+.section-contact form  input[type="submit"]:hover{
+    background-color: rgb(1, 124, 133);
+    border-color: rgb(1, 124, 133);
+}
+.section-contact form .form iframe{
+    width: 425px;
+    height: 130px;
+    position: absolute;
+}
+.section-contact form .form input:hover{
+    border-color: var(--issa);
+}
+.section-contact form .form textarea:hover{
+    border-color: var(--issa);
+}
+footer {
+    text-align: center;
+    color: rgb(2, 119, 119);
+}
+
+
+/*responsive*/
+
+@media(max-width:750px){
+    header nav ul{
+        display: none;
+    }
+    header nav .btn-reserve{
+        display: none;
+    }
+
+    /*responsive accueil*/
+    .accueil-section h2{
+        font-size: 18px;
+        -webkit-text-stroke: 0;
+        margin: auto;
+    }
+    .accueil-section h1{
+        font-size: 20px;
+    }
+    .accueil-section p{
+        font-size: 13px;
+    }
+    .accueil-section form{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .accueil-section form p{
+        display: flex;
+        flex-direction: column;
+    }
+    /* responsive apropos*/
+     h2{
+        margin-left: -150px;
+    }
+    .section-apropos{
+    
+    }
+    .section-apropos .apropos{
+        display: block;
+        margin-left: -150px;
+        m
+    }
+    .section-apropos .apropos .video video{
+    width: 100%;
+    }
+}

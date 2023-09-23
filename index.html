@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><span>Air</span> Travel</a>
+            </div>
+            <ul>
+                <li><a href="#accueil">accueil</a></li>
+                <li><a href="#apropos">a propos</a></li>
+                <li><a href="#destination">destination</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <a href="#" class="btn-reserve">Réserver Maintemant</a>
+        </nav>
+    </header>
+
+    <!--accueil section-->
+    <section class="accueil-section" id="accueil">
+        <div class="texte-accueil">
+            <h2>Nous suivre</h2>
+            <h1>Voyagez en sécurité</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, accusamus. Facere consequuntur reiciendis corporis sequi temporibus.</p>
+            <p>veritatis animi quisquam? Aliquid debitis doloremque fuga labore </p>
+            <a href="#">Réserver maintemant</a>
+        </div>
+
+        <form action="" method="post">
+            <p>
+                <label for="pays">Pays</label>
+                <input type="text" name="pays" id="pays" placeholder="Entrez un pays">
+            </p>
+            <p>
+                <label for="ville">Ville</label>
+                <input type="text" name="ville" id="ville" placeholder="Entrez une ville">
+            </p>
+            <p>
+                <label for="region">Région</label>
+                <input type="text" id="region" name="region" placeholder="Entrez une région">
+            </p>
+    
+                <input type="submit" value="Voir">
+        
+        </form>
+    </section>
+
+    <!--section a propos-->
+    <section class="section-apropos" id="apropos">
+        <h2><span></span>A propos</h2>
+        <div class="apropos">
+            <div class="video">
+                <video src="assets/video/video.mp4"  autoplay loop></video>
+            </div>
+            <div class="text-apropos">
+                <h3>
+                    Nous voyageons pour chercer d'autres états, d'autres vies, d'autres âmes.
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nemo tenetur soluta perspiciatis ipsam expedita quam, culpa quaerat animi deserunt quidem.
+                </p>
+                    <a href="#">Lire plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!--section destination-->
+    <section class="section-desti" id="destination">
+        <h2><span></span>Destinations populaires</h2>
+        <div class="contenair-destinations">
+
+            <!--destination1-->
+             <div class="photos">
+                <div class="destination">
+                    <img src="assets/image/destination/destination 1.jpeg" alt="destination">
+                </div>
+                <div class="description">
+                    <h3>Paris</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore.</p>
+                    <a href="#">Voir plus</a>
+                </div>
+             </div>
+
+            <!--destination2-->
+            <div class="photos">
+                <div class="destination">
+                    <img src="assets/image/destination/destination 2.jpg" alt="destination">
+                </div>
+                <div class="description">
+                    <h3>Rome</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore.</p>
+                    <a href="#">Voir plus</a>
+                </div>
+             </div>
+
+            <!--destination3-->
+            <div class="photos">
+                <div class="destination">
+                    <img src="assets/image/destination/destination 3.jpeg" alt="destination">
+                </div>
+                <div class="description">
+                    <h3>Berlin</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore.</p>
+                    <a href="#">Voir plus</a>
+                </div>
+             </div>
+             <!--deuxième parti de la section destination-->
+             
+        </div>
+        <div class="contenair-destinations">
+
+            <!--destination1-->
+             <div class="photos">
+                <div class="destination">
+                    <img src="assets/image/destination/destination 4.jpeg" alt="destination">
+                </div>
+                <div class="description">
+                    <h3>Paris</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore.</p>
+                    <a href="#">Voir plus</a>
+                </div>
+             </div>
+
+            <!--destination2-->
+            <div class="photos">
+                <div class="destination">
+                    <img src="assets/image/destination/destination 5.jpeg" alt="destination">
+                </div>
+                <div class="description">
+                    <h3>Rome</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore.</p>
+                    <a href="#">Voir plus</a>
+                </div>
+             </div>
+
+            <!--destination3-->
+            <div class="photos">
+                <div class="destination">
+                    <img src="assets/image/destination/destination 6.jpeg" alt="destination">
+                </div>
+                <div class="description">
+                    <h3>Berlin</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore.</p>
+                    <a href="#">Voir plus</a>
+                </div>
+             </div>
+             <!--deuxième parti de la section destination-->
+             
+        </div>
+    </section>
+
+    <!--section contact-->
+    <section class="section-contact" id="contact">
+        <h2><span></span>Contact</h2>
+        <form action="" method="post">
+          <div class="contenair-form">
+            <div class="form">
+                <p>
+                    <label for="nom">Nom Complet</label>
+                    <input type="text" name="nom" id="nom">
+                </p>
+                <p>
+                    <label for="objet">Objet</label>
+                    <input type="text" name="objet" id="objet">
+                </p>
+                <p>
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" id="mail">
+                </p>
+                <p>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </p>
+                
+               </div>
+    
+               <div class="form">
+                <p>
+                    <label for="numero">Numéro</label>
+                    <input type="tel" name="numero" id="numero">
+                </p>
+                <p>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                </p>
+                <p>
+                    <label for="autre">Autre Details</label>
+                    <input type="text" name="autre" id="autre">
+                </p>
+                <p>
+                    <label for="Adresse">Adresse</label>
+                   <iframe src ="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83999.7320355503!2d2.21208383604775!3d48.85837007133216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sml!4v1695459418909!5m2!1sfr!2sml" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+               </div>
+          </div>
+           <p><input type="submit" value="Envoyer"></p>
+        </form>
+    </section>
+
+    <!---footer-->
+    <footer>
+        <p>Réaliser par <em>Issa Fofana</em> Tous les droits sont réservés.</p>
+    </footer>
+</body>
+</html>
